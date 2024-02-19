@@ -1,0 +1,8 @@
+The following assumes that any of (~conda~ | ~miniconda~ | ~mamba~ | ~micromamba~ ) are installed.
+
+Environment initialization:
+#+begin_src bash
+  micromamba create --name osmg python=3.11 -y
+  micromamba create --name pelicun_dev python=3.11 -y
+#+end_src
+
