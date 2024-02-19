@@ -4,8 +4,8 @@ Source code repository accompanying the paper titled "Factor prioritization in F
 
 * Environment setup
 
-See [[environment_setup.org=][=environment_setup.org=]]
+See [[environment_setup.org][environment_setup.org]]
 
 * Reproducing the results
 
-See [[reproducing.org][=reproducing.org=]]
+See [[reproducing.org][reproducing.org]]
