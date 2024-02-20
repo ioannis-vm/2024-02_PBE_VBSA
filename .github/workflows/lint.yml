@@ -25,6 +25,7 @@ jobs:
         git checkout bc9ae2b7
         python -m pip install -e .
         cd ../../
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
     - name: Analyze the code with pylint
       run: |
         pylint src
