@@ -18,6 +18,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        mkdir external_tools
         cd external_tools
         git clone https://github.com/ioannis-vm/AZ_pelicun
         cd AZ_pelicun
