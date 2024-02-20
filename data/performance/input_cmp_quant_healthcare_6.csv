@@ -1,0 +1,78 @@
+c,Units,Location,Direction,Theta_0,Theta_1,Family,Blocks,Designation,Description
+B.20.11.101,ft2,1,1,1566,0.15,lognormal,,Cladding,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard no hold-downs"
+B.20.11.101,ft2,1,2,1024,0.15,lognormal,,Cladding,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard no hold-downs"
+B.20.11.101,ft2,"2,3,4,5,6",1,1357,0.15,lognormal,,Cladding,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard no hold-downs"
+B.20.11.101,ft2,"2,3,4,5,6",2,1288,0.15,lognormal,,Cladding,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard no hold-downs"
+B.20.22.001,ft2,1,1,2634,0.15,lognormal,,Cladding,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown"
+B.20.22.001,ft2,1,2,1976,0.15,lognormal,,Cladding,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown"
+B.20.22.001,ft2,"2,3,4,5,6",1,2283,0.15,lognormal,,Cladding,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown"
+B.20.22.001,ft2,"2,3,4,5,6",2,1712,0.15,lognormal,,Cladding,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown"
+B.30.11.011,ft2,roof,0,4350,0.1,lognormal,,"Architectural, other","Concrete tile roof, tiles secured and compliant with UBC94"
+C.10.11.001a,ft,all,1,1575,0.3,lognormal,,Partitions,"Wall Partition, Type: Gypsum with metal studs, Full Height, Fixed Below, Fixed Above"
+C.10.11.001a,ft,all,2,190.4,0.3,lognormal,,Partitions,"Wall Partition, Type: Gypsum with metal studs, Full Height, Fixed Below, Fixed Above"
+C.20.11.001a,ea,all,1,1,,,,"Architectural, other",Prefabricated steel stair with steel treads and landings with seismic joints that accommodate drift.
+C.20.11.001a,ea,all,2,2,,,,"Architectural, other",Prefabricated steel stair with steel treads and landings with seismic joints that accommodate drift.
+C.30.21.001k,ft2,all,0,14000,0.3,lognormal,,Flooding,Generic Floor Covering - Flooding of floor caused by failure of pipe - Retail - Dry
+C.30.32.003a,ft2,all,0,600,0.15,lognormal,,Ceilings,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A < 250, Vert & Lat support"
+C.30.32.003a,ft2,all,0,1200,0.15,lognormal,,Ceilings,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A < 250, Vert & Lat support"
+C.30.32.003a,ft2,all,0,1200,0.15,lognormal,,Ceilings,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A < 250, Vert & Lat support"
+C.30.32.003a,ft2,all,0,12000,0.15,lognormal,,Ceilings,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A > 2500, Vert & Lat support"
+C.30.34.002,ea,all,0,450,0.2,lognormal,,"Architectural, other",Independent Pendant Lighting - seismically rated
+D.10.14.011,ea,1,0,4,0.1,lognormal,,MEP,"Traction Elevator – Applies to most California Installations 1976 or later, most western states installations 1982 or later and most other U.S installations 1998 or later."
+D.20.21.013a,ft,all,0,1650,0.1,lognormal,,MEP,"Cold or Hot Potable  - Small Diameter Threaded Steel - (2.5 inches in diameter or less), SDC D, E, or F, PIPING FRAGILITY"
+D.20.31.013b,ft,all,0,270,0.1,lognormal,,MEP,"Sanitary Waste Piping - Cast Iron w/flexible couplings, SDC D,E,F, BRACING FRAGILITY"
+D.30.31.013c,ea,roof,0,4,0.1,lognormal,,MEP,Chiller - Capacity: < 100 Ton - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility
+D.30.31.023c,ea,roof,0,4,0.1,lognormal,,MEP,Cooling Tower - Capacity: < 100 Ton - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility
+D.30.41.011c,ft,all,0,1125,0.1,lognormal,,MEP,"HVAC Galvanized Sheet Metal Ducting less than 6 sq. ft in cross sectional area, SDC D, E, or F"
+D.30.41.012c,ft,all,0,525,0.1,lognormal,,MEP,"HVAC Galvanized Sheet Metal Ducting -  6 sq. ft cross sectional area or greater, SDC D, E, or F"
+D.30.41.031a,ea,all,0,300,0.1,lognormal,,MEP,"HVAC Drops / Diffusers in suspended ceilings - No independent safety wires, SDC A or B"
+D.30.41.041b,ea,all,0,75,0.1,lognormal,,MEP,"Variable Air Volume (VAV) box with in-line coil, SDC C"
+D.30.41.041b,ea,all,0,75,0.1,lognormal,,MEP,"Variable Air Volume (VAV) box with in-line coil, SDC C"
+D.30.41.103b,ea,roof,0,16,0.1,lognormal,,MEP,HVAC Fan - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.30.52.013b,ea,roof,0,22,0.1,lognormal,,MEP,Air Handling Unit - Capacity: <5000 CFM - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.40.11.024a,ft,all,0,3300,0.1,lognormal,,MEP,"Fire Sprinkler Water Piping - Horizontal Mains and Branches - Old Style Victaulic - Thin Wall Steel - with designed bracing, SDC D, E, or F (OSHPD or sim), PIPING FRAGILITY"
+D.40.11.033a,ea,all,0,180,0.1,lognormal,,MEP,"Fire Sprinkler Drop Standard Threaded Steel - Dropping into unbraced lay-in tile SOFT ceiling - 6 ft. long drop maximum, SDC D, E, or F"
+D.50.11.013b,ea,roof,0,8,0.1,lognormal,,MEP,Transformer/primary service - Capacity: <100 kVA - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.50.12.013c,ea,1,0,4,0.1,lognormal,,MEP,Motor Control Center - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.50.12.023b,ea,all,0,9,0.1,lognormal,,MEP,Low Voltage Switchgear - Capacity: 100 to <350 Amp - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+E.20.22.001,ea,"5,6",0,6,0.1,lognormal,,EC,Modular office work stations.
+E.20.22.023,ea,"5,6",0,6,0.1,lognormal,,EC,Desktop Computers
+E.20.22.102b,ea,all,0,15,0.1,lognormal,,EC,"Bookcase, 2 shelves, anchored laterally"
+E.20.22.112a,ea,all,0,6,0.1,lognormal,,EC,"Vertical Filing Cabinet, 2 drawer, anchored laterally"
+E.10.28.001,ea,"3,4",0,2,0.35,lognormal,,EC,Anesthesia machine
+E.10.28.002,ea,"3,4",0,2,0.35,lognormal,,EC,Ballon pump
+E.10.28.003,ea,"3,4",0,1,0.35,lognormal,,EC,Catheter cabinet
+E.10.28.004,ea,"3,4",0,1,0.35,lognormal,,EC,Blood recovery system
+E.10.28.005,ea,"3,4",0,2,0.35,lognormal,,EC,Hypothermia system
+E.10.28.006,ea,"3,4",0,2,0.35,lognormal,,EC,Surgical table
+E.10.28.011,ea,"3,4,5,6",0,4,0.35,lognormal,,EC,Patient bed
+E.10.28.021,ea,"1,2",0,3,0.35,lognormal,,EC,Endoscope system
+E.10.28.023,ea,"1,2",0,3,0.35,lognormal,,EC,Ultrasound unit
+E.10.28.031,ea,"5,6",0,1,0.35,lognormal,,EC,Cryostat
+E.10.28.104,ea,"3,4",0,1,0.35,lognormal,,EC,Ice slusher
+E.10.28.022,ea,"3,4",0,36,0.35,lognormal,,EC,Light system
+E.10.28.101,ea,"3,4",0,2,0.35,lognormal,,EC,Equipment boom
+E.10.28.102,ea,"3,4",0,2,0.35,lognormal,,EC,Warming cabinet (full height)
+E.10.28.103,ea,"3,4",0,2,0.35,lognormal,,EC,Anesthesia boom
+E.10.28.105,ea,"3,4",0,2,0.35,lognormal,,EC,Dual surgical light
+E.10.28.106,ea,"3,4",0,1,0.35,lognormal,,EC,Cath lab system
+E.10.28.107,ea,"3,4",0,2,0.35,lognormal,,EC,Sterilizer
+E.10.28.108,ea,"3,4",0,1,0.35,lognormal,,EC,Washer / disinfector
+E.10.28.201,ea,"5,6",0,2,0.35,lognormal,,EC,Bio safety hood (4 ft.)
+E.10.28.202,ea,"3,4",0,1,0.35,lognormal,,EC,"Ultrasonic cleaner (table top, 5.75 gal.)"
+E.10.28.203,ea,"1,2",0,1,0.35,lognormal,,EC,Freezer (23.3 cu. ft.)
+E.10.28.204,ea,"5,6",0,1,0.35,lognormal,,EC,Laminar flow hood (6ft.)
+E.10.28.205,ea,"3,4",0,1,0.35,lognormal,,EC,Decontamination washer
+E.10.28.212,ea,"1,2",0,1,0.35,lognormal,,EC,Breathing circuit dryer (single cabinet)
+E.10.28.221,ea,"5,6",0,1,0.35,lognormal,,EC,Chemistry analyzer
+E.10.28.301,ea,"3,4,5,6",0,4,0.35,lognormal,,EC,Headwall
+E.10.28.311,ea,all,0,1,0.35,lognormal,,EC,Ice dispenser
+E.10.28.321,ea,all,0,2,0.35,lognormal,,EC,Under counter refrigerator
+E.10.28.331,ea,all,0,1,0.35,lognormal,,EC,Refrigerator (49 cu. ft.)
+E.10.28.341,ea,all,0,1,0.35,lognormal,,EC,Medstation (6-drawer)
+E.10.28.401,ea,"1,2",0,1,0.35,lognormal,,EC,Imaging system (16 slice CT)
+E.10.28.403,ea,"1,2",0,1,0.35,lognormal,,EC,CT C-Arm (digital)
+E.10.28.411,ea,"1,2",0,1,0.35,lognormal,,EC,MRI system
+E.10.28.421,ea,"1,2",0,1,0.35,lognormal,,EC,Laser imaging
+E.10.28.431,ea,"1,2",0,1,0.35,lognormal,,EC,X-Ray system (digital)
+E.10.28.501,ea,"1,2",0,10,0.35,lognormal,,EC,Shelving system (single 5 ft. unit)

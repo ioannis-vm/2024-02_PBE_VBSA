@@ -1,0 +1,117 @@
+** Site hazard analysis and ground motion selection
+
+Obtain site-specific hazard curves:
+#+begin_src bash
+  ./src/hazard_analysis/site_hazard_curves.sh
+#+end_src
+
+This creates ~/results/site_hazard/~ and adds all hazard curves, one file for each, e.g. ~0p01.txt~.
+
+Obtain Uniform Hazard Spectra and stripes:
+#+begin_src bash
+  python src/hazard_analysis/site_hazard.py
+#+end_src
+
+This creates figures under ~figures~, a unified ~results/site_hazard/hazard_curves.csv~ file, and it defines the intensity of each hazard level stored in ~Hazard_Curve_Interval_Data.csv~.
+
+Run hazard deaggregation:
+#+begin_src bash
+  ./src/hazard_analysis/site_hazard_deagg.sh
+#+end_src
+
+This performs deaggregation of the site hazard for each archetype and hazard level. The results are stored under ~/results/{archetype}/site_hazard/deaggregation_$i.txt~.
+The code used to also generate a ground motion model output but it has now been replaced with ~CS_Selection~, so the affected lines of code are now commented out.
+
+Generate CS_Selection input file:
+#+begin_src bash
+  python src/hazard_analysis/cs_selection_input_file.py
+#+end_src
+
+This prepares an input file for the custom ~MAIN_select_motions_custom.m~ used to define the ground motion suites for each archetype and hazard level. It is stored as ~results/site_hazard/CS_Selection_input_file.csv~.
+
+Run ~/src/hazard_analysis/MAIN_select_motions_custom.m~. This requires MATLAB.
+
+Process the output and identify unique RSNs:
+#+begin_src bash
+  python src/hazard_analysis/cs_selection_process_output.py
+#+end_src
+
+This generates the following files:
+~results/site_hazard/required_records_and_scaling_factors.csv~
+~results/site_hazard/ground_motion_group.csv~
+
+At this point, download ground motions from the PEER database. The ~results/site_hazard/rsns_unique_*.txt~ files can be used to limit the RSNs in groups of 100. Store them in `data/ground_motions` in the following directory format:
+#+begin_quote
+data/ground_motions/PEERNGARecords_Unscaled(0)/
+data/ground_motions/PEERNGARecords_Unscaled(1)/
+data/ground_motions/PEERNGARecords_Unscaled(2)/
+...
+data/ground_motions/PEERNGARecords_Unscaled(n)/
+#+end_quote
+
+Update the scaling factors so that they match with the target UHSs:
+#+begin_src bash
+  python -m src.hazard_analysis.update_scaling_factors.py
+#+end_src
+
+This generates the concisely named ~required_records_and_scaling_factors_adjusted_to_cms.csv~, containing the scaling factors used in the study. It also generates the figures of the ground motion suites and against the target spectra.
+
+~max_scaling_factor.py~ can be used to determine the resulting maximum scaling after the scaling factor modification.
+
+~check_gm_file_exists.py~ can be used to verify that all ground motion files that are needed have been downloaded and can be parsed without any issues.
+
+** Archetype design
+
+Generate design logs:
+#+begin_src bash
+  ./src/structural_analysis/deisng/review_check_design.sh
+#+end_src
+The script calls all design code in sequence.
+
+** Archetype pushover curves
+
+#+begin_src bash
+  # run pushover analyses to produce results
+  python src/structural_analysis/pushover.py
+  # generate figures to visualize the results
+  python src/structural_analysis/pushover_processing.py
+#+end_src
+
+The pushover curves are not used in performance evaluation, but they provide an additional view into the behavior of the structural models, enhancing quality control.
+
+** Response history analysis
+
+We ran response history analyses on HPC (TACC, via a DesignSafe allocation). Analyses were ran in batches (grouped by structural archetype). Example ~SLURM~ input files are available in the ~tacc~ directory. Each individual line in a ~taskfile~ can be executed on a local machine from the project's root directory.
+
+Gather peak responses---or Engineering Demand Parameters (EDPs)---for loss estimation:
+#+begin_src bash
+  python src/structural_analysis/gather_edps.py
+#+end_src
+
+The following scripts can be used to visualize the results for quality control:
+~review_plot_aggregated_response.py~ visualizes the EDPs for an archetype, considering all hazard levels.
+~review_plot_response.py~ visualizes the time history analysis results of a single ground motion scenario of the suite, for a given archetype and hazard level.
+~check_dcratios.py~ outputs the utilized demand capacity ratios of braced frames to ensure that the archetypes were not over/under-designed.
+~check_delta_t.py~ determines the largest usable delta t for the time history analyses.
+~check_periods.py~ compares the first-mode period of the design models versus the nonlinear models, and the period specified in ~/data/~.
+
+** Collapse fragility
+
+Collapse fragilities are generated from the time history analysis results. The likelihood of collapse for each hazard level is determined by counting the number of collapse occurrences, and then a lognormal distribution is fit to those estimates.
+
+#+begin_src 
+  python src/structural_analysis/collapse_fragility.py
+#+end_src
+
+** Performance Evaluation and Sensitivity Analysis
+
+We use the design logs, which contain the sections used, to generate the structural components that are part of the performance model of each archetype. Automating this eliminates the chance of making a mistake while specifying those components.
+The remaining components are manually defined in the ~data/performance~ folder.
+
+#+begin_src 
+  python src/risk_analysis/populate_structural_perf_model.py
+#+end_src
+
+~pelicun_vbsa.py~ runs variance-based sensitivity analysis. The code is an "exploded" version of higher level /pelicun/ methods.
+
+The code is run using HPC, with example files provided in the ~tacc~ folder.

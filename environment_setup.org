@@ -1,8 +1,55 @@
-The following assumes that any of (~conda~ | ~miniconda~ | ~mamba~ | ~micromamba~ ) are installed.
+Development of this code was done in ~Arch Linux x86_64~. It is expected to run under ~macOS~, but it wasn't tested there. ~Windows~ users are advised to [[https://learn.microsoft.com/en-us/windows/wsl/install][utilize WSL]] to avoid any potential incompatibility issues.
 
-Environment initialization:
+The following assumes that any of (~conda~ | ~miniconda~ | ~mamba~ | ~micromamba~ ) are installed. Instructions to install ~micromamba~ can be found [[https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html][here]].
+
+*** Environment initialization
+
+We define a virtual environment for the project.
 #+begin_src bash
-  micromamba create --name osmg python=3.11 -y
-  micromamba create --name pelicun_dev python=3.11 -y
+
+  # create and activate the environment
+  micromamba create -c conda-forge --name pbe_vbsa_env python=3.11
+  micromamba activate pbe_vbsa_env
+
+  # install dependencies. make sure pve_vbsa_env is the active environment
+  # "which python" should include pbe_vbsa_env in the returned path
+  # "micromamba env list", as well as the prompt, show the active
+  # environment
+  python -m pip install -r requirements.txt
+
+  # clone pelicun and install in development mode
+  cd external_tools
+  git clone https://github.com/ioannis-vm/AZ_pelicun
+  cd AZ_pelicun
+  git checkout bc9ae2b7
+  # this installs additional dependencies
+  python -m pip install -e .
+
 #+end_src
 
+To run Python code the project's root directory needs to be in the ~PYTHONPATH~ environment variable.
+#+begin_src bash
+  cd .../path/to/2024-02_PBE_VBSA
+  export PYTHONPATH=$PYTHONPATH:$(pwd)
+#+end_src
+
+If an environment tear-down is required (e.g. for a clean initialization of the environment setup), the environments can be removed as follows:
+#+begin_src bash
+  micromamba env list
+  micromamba remove --name pbe_vbsa_env --all
+  rm -r ...path/to/envs/pbe_vbsa_env
+#+end_src
+
+** Installing external tools
+
+Seismic hazard analysis is done with OpenSHA. This requires a working installation of java.
+Detailed requirements are listed here: https://opensha.org/Applications.html
+
+Ground motion selection is performed using ~CS_Selection~, which requires Matlab.
+https://github.com/bakerjw/CS_Selection
+
+#+begin_src bash
+  cd external tools
+  git clone https://github.com/bakerjw/CS_Selection
+  git checkout 194b3d4
+#+end_src

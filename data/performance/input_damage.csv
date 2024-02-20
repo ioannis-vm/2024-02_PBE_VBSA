@@ -1,0 +1,102 @@
+,Incomplete,Demand,Demand,Demand,Demand,LS1,LS1,LS1,LS1,LS2,LS2,LS2,LS2,LS3,LS3,LS3,LS3,LS4,LS4,LS4,LS4,Description
+,,Type,Unit,Offset,Directional,Family,Theta_0,Theta_1,DamageStateWeights,Family,Theta_0,Theta_1,DamageStateWeights,Family,Theta_0,Theta_1,DamageStateWeights,Family,Theta_0,Theta_1,DamageStateWeights,
+ID,,,,,,,,,,,,,,,,,,,,,,
+B.10.31.001,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.04,0.4,0.950000 | 0.050000,lognormal,0.08,0.4,,lognormal,0.11,0.4,,,,,,Bolted shear tab gravity connections
+B.10.31.011a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.04,0.4,0.950000 | 0.050000,lognormal,0.07,0.4,,lognormal,0.1,0.4,,,,,,"Steel Column Base Plates, Column W < 150 plf"
+B.10.31.011b,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.04,0.4,0.950000 | 0.050000,lognormal,0.07,0.4,,lognormal,0.1,0.4,,,,,,"Steel Column Base Plates, Column 150 plf < W < 300 plf"
+B.10.31.011c,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.04,0.4,0.950000 | 0.050000,lognormal,0.07,0.4,,lognormal,0.1,0.4,,,,,,"Steel Column Base Plates, Column W > 300 plf"
+B.10.31.021a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,0.950000 | 0.050000,lognormal,0.05,0.4,,,,,,,,,,"Welded column splices, Column W < 150 plf"
+B.10.31.021b,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,0.950000 | 0.050000,lognormal,0.05,0.4,,,,,,,,,,"Welded column splices, Column 150 plf < W < 300 plf"
+B.10.31.021c,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,0.950000 | 0.050000,lognormal,0.05,0.4,,,,,,,,,,"Welded column splices, Column W > 300 plf"
+B.10.33.002a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.0035,0.45,,lognormal,0.0058,0.65,,lognormal,0.0142,0.5,,lognormal,0.0283,0.25,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, Brace w < 40 PLF"
+B.10.33.002b,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.0035,0.45,,lognormal,0.0058,0.65,,lognormal,0.0142,0.5,,lognormal,0.0283,0.25,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002c,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.0035,0.45,,lognormal,0.0058,0.65,,lognormal,0.0142,0.5,,lognormal,0.0283,0.25,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, Brace w > 100 PLF"
+B.10.33.111a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,,,,,,,,,,,,,,"Steel Buckling Restrained Brace (BRB), Single Diagonal Brace, Weight of brace < 40 plf."
+B.10.33.111b,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,,,,,,,,,,,,,,"Steel Buckling Restrained Brace (BRB), Single Diagonal brace, Weight of brace > 41 plf and < 99 plf."
+B.10.33.111c,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,,,,,,,,,,,,,,"Steel Buckling Restrained Brace (BRB), Single Diagonal Brace, Weight of brace > 100 plf."
+B.10.35.001,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge RBS connection with welded web, beam one side of column only, beam depth <= W27"
+B.10.35.002,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge RBS connection with welded web, beam one side of column only, beam depth >= W30"
+B.10.35.011,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge RBS connection with welded web, beams both sides of column, beam depth <= W27"
+B.10.35.012,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge RBS connection with welded web, beams both sides of column, beam depth >= W30"
+B.10.35.021,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge welded steel moment connection other than RBS, beam one side, beam depth <= W27"
+B.10.35.022,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge welded steel moment connection other than RBS, beam one side, beam depth >= W30"
+B.10.35.031,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge welded steel moment connection other than RBS, beams both sides, beam depth <= W27"
+B.10.35.032,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.03,0.3,,lognormal,0.04,0.3,,lognormal,0.05,0.3,,,,,,"Post-Northridge welded steel moment connection other than RBS, beams both sides, beam depth >= W30"
+B.20.11.101,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.01,0.4,,lognormal,0.0175,0.4,,lognormal,0.025,0.4,,,,,,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard no hold-downs"
+B.20.11.121,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.015,0.4,,lognormal,0.0369,0.2,,,,,,,,,,"Exterior Wall - Light framed wood walls with structural panel sheathing, gypsum wallboard and hold-downs"
+B.20.22.001,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.0338,0.4,,lognormal,0.0383,0.4,,,,,,,,,,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown"
+B.30.11.011,0,Peak Floor Acceleration,g,0,0,lognormal,1.1,0.4,,lognormal,1.4,0.4,,,,,,,,,,"Concrete tile roof, tiles secured and compliant with UBC94"
+C.10.11.001a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.005,0.4,,lognormal,0.01,0.3,,lognormal,0.021,0.2,,,,,,"Wall Partition, Type: Gypsum with metal studs, Full Height, Fixed Below, Fixed Above"
+C.20.11.001a,0,Peak Interstory Drift Ratio,unitless,0,1,lognormal,0.02,0.4,,lognormal,0.035,0.4,,lognormal,0.05,0.4,,,,,,Prefabricated steel stair with steel treads and landings with seismic joints that accommodate drift.
+C.30.21.001k,0,Peak Floor Acceleration,g,1,0,lognormal,100000000,0,,,,,,,,,,,,,,Generic Floor Covering - Flooding of floor caused by failure of pipe - Retail - Dry
+C.30.27.002,0,Peak Floor Acceleration,g,0,0,lognormal,1.5,0.4,,,,,,,,,,,,,,"Raised Access Floor, seismically rated."
+C.30.32.003a,0,Peak Floor Acceleration,g,1,0,lognormal,1.6,0.3,,lognormal,1.95,0.3,,lognormal,2.07,0.3,,,,,,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A < 250, Vert & Lat support"
+C.30.32.003b,0,Peak Floor Acceleration,g,1,0,lognormal,1.47,0.3,,lognormal,1.88,0.3,,lognormal,2.03,0.3,,,,,,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): 250 < A < 1000, Vert & Lat support"
+C.30.32.003c,0,Peak Floor Acceleration,g,1,0,lognormal,1.21,0.3,,lognormal,1.75,0.3,,lognormal,1.95,0.3,,,,,,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): 1000 < A < 2500, Vert & Lat support"
+C.30.32.003d,0,Peak Floor Acceleration,g,1,0,lognormal,1.09,0.3,,lognormal,1.69,0.3,,lognormal,1.91,0.3,,,,,,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A > 2500, Vert & Lat support"
+C.30.34.002,0,Peak Floor Acceleration,g,1,0,lognormal,1.5,0.4,,,,,,,,,,,,,,Independent Pendant Lighting - seismically rated
+D.10.14.011,0,Peak Floor Acceleration,g,0,0,lognormal,0.39,0.45,0.015126 | 0.161954 | 0.056903 | 0.091484 | 0.032143 | 0.344153 | 0.120919 | 0.008818 | 0.003098 | 0.033171 | 0.011655 | 0.018738 | 0.006583 | 0.070489 | 0.024766,,,,,,,,,,,,,"Traction Elevator – Applies to most California Installations 1976 or later, most western states installations 1982 or later and most other U.S installations 1998 or later."
+D.20.21.013a,0,Peak Floor Acceleration,g,1,0,lognormal,2.25,0.4,,lognormal,4.1,0.4,,,,,,,,,,"Cold or Hot Potable  - Small Diameter Threaded Steel - (2.5 inches in diameter or less), SDC D, E, or F, PIPING FRAGILITY"
+D.20.21.014a,0,Peak Floor Acceleration,g,1,0,lognormal,2.25,0.4,,lognormal,4.1,0.4,,,,,,,,,,"Cold or Hot Potable  - Small Diameter Threaded Steel - (2.5 inches in diameter or less), SDC D, E, or F (OSHPD or sim), PIPING FRAGILITY"
+D.20.31.013b,0,Peak Floor Acceleration,g,1,0,lognormal,2.25,0.4,,,,,,,,,,,,,,"Sanitary Waste Piping - Cast Iron w/flexible couplings, SDC D,E,F, BRACING FRAGILITY"
+D.30.31.013c,0,Peak Floor Acceleration,g,0,0,lognormal,2,0.6,0.350000 | 0.150000 | 0.500000,,,,,,,,,,,,,Chiller - Capacity: < 100 Ton - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility
+D.30.31.023c,0,Peak Floor Acceleration,g,0,0,lognormal,2,0.6,0.350000 | 0.150000 | 0.500000,,,,,,,,,,,,,Cooling Tower - Capacity: < 100 Ton - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility
+D.30.41.011c,0,Peak Floor Acceleration,g,1,0,lognormal,1.5,0.4,,lognormal,2.25,0.4,,,,,,,,,,"HVAC Galvanized Sheet Metal Ducting less than 6 sq. ft in cross sectional area, SDC D, E, or F"
+D.30.41.011d,0,Peak Floor Acceleration,g,1,0,lognormal,1.5,0.4,,lognormal,2.25,0.4,,,,,,,,,,"HVAC Galvanized Sheet Metal Ducting less than 6 sq. ft in cross sectional area, SDC D, E, or F (OSHPD or sim)"
+D.30.41.012c,0,Peak Floor Acceleration,g,1,0,lognormal,3.75,0.4,,lognormal,4.5,0.4,,,,,,,,,,"HVAC Galvanized Sheet Metal Ducting -  6 sq. ft cross sectional area or greater, SDC D, E, or F"
+D.30.41.012d,0,Peak Floor Acceleration,g,1,0,lognormal,3.75,0.4,,lognormal,4.5,0.4,,,,,,,,,,"HVAC Galvanized Sheet Metal Ducting -  6 sq. ft cross sectional area or greater, SDC D, E, or F (OSHPD or sim)"
+D.30.41.031a,0,Peak Floor Acceleration,g,1,0,lognormal,1.3,0.4,,,,,,,,,,,,,,"HVAC Drops / Diffusers in suspended ceilings - No independent safety wires, SDC A or B"
+D.30.41.041b,0,Peak Floor Acceleration,g,1,0,lognormal,1.9,0.4,,,,,,,,,,,,,,"Variable Air Volume (VAV) box with in-line coil, SDC C"
+D.30.41.103b,0,Peak Floor Acceleration,g,0,0,lognormal,4.8,0.6,,,,,,,,,,,,,,HVAC Fan - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.30.52.013b,0,Peak Floor Acceleration,g,0,0,lognormal,1.54,0.6,0.670000 | 0.330000,,,,,,,,,,,,,Air Handling Unit - Capacity: <5000 CFM - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.40.11.024a,0,Peak Floor Acceleration,g,1,0,lognormal,1.9,0.4,,lognormal,3.4,0.4,,,,,,,,,,"Fire Sprinkler Water Piping - Horizontal Mains and Branches - Old Style Victaulic - Thin Wall Steel - with designed bracing, SDC D, E, or F (OSHPD or sim), PIPING FRAGILITY"
+D.40.11.033a,0,Peak Floor Acceleration,g,1,0,lognormal,0.95,0.4,,,,,,,,,,,,,,"Fire Sprinkler Drop Standard Threaded Steel - Dropping into unbraced lay-in tile SOFT ceiling - 6 ft. long drop maximum, SDC D, E, or F"
+D.40.11.034a,0,Peak Floor Acceleration,g,1,0,lognormal,1.3,0.4,,,,,,,,,,,,,,"Fire Sprinkler Drop Standard Threaded Steel - Dropping into unbraced lay-in tile SOFT ceiling - 6 ft. long drop maximum, SDC D, E, or F (OSHPD or sim)"
+D.50.11.013b,0,Peak Floor Acceleration,g,0,0,lognormal,3.05,0.5,,,,,,,,,,,,,,Transformer/primary service - Capacity: <100 kVA - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.50.12.013c,0,Peak Floor Acceleration,g,0,0,lognormal,2.5,0.4,,,,,,,,,,,,,,Motor Control Center - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.50.12.023b,0,Peak Floor Acceleration,g,0,0,lognormal,2.4,0.4,,,,,,,,,,,,,,Low Voltage Switchgear - Capacity: 100 to <350 Amp - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+D.50.12.033b,0,Peak Floor Acceleration,g,0,0,lognormal,3.05,0.4,,,,,,,,,,,,,,Distribution Panel - Capacity: 100 to <350 Amp - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Equipment fragility only
+E.10.28.001,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Anesthesia machine
+E.10.28.002,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Ballon pump
+E.10.28.003,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Catheter cabinet
+E.10.28.004,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Blood recovery system
+E.10.28.005,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Hypothermia system
+E.10.28.006,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Surgical table
+E.10.28.011,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Patient bed
+E.10.28.021,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Endoscope system
+E.10.28.022,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Light system
+E.10.28.023,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Ultrasound unit
+E.10.28.031,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Cryostat
+E.10.28.101,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Equipment boom
+E.10.28.102,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Warming cabinet (full height)
+E.10.28.103,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Anesthesia boom
+E.10.28.104,0,Peak Floor Velocity,inps,0,0,lognormal,29.39,0.5,,lognormal,41.56,0.5,,,,,,,,,,Ice slusher
+E.10.28.105,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Dual surgical light
+E.10.28.106,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Cath lab system
+E.10.28.107,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Sterilizer
+E.10.28.108,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Washer / disinfector
+E.10.28.201,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Bio safety hood (4 ft.)
+E.10.28.202,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Ultrasonic cleaner (table top 5.75 gal.)
+E.10.28.203,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Freezer (23.3 cu. ft.)
+E.10.28.204,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Laminar flow hood (6ft.)
+E.10.28.205,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Decontamination washer
+E.10.28.212,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Breathing circuit dryer (single cabinet)
+E.10.28.221,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Chemistry analyzer
+E.10.28.301,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Headwall
+E.10.28.311,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Ice dispenser
+E.10.28.321,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Under counter refrigerator
+E.10.28.331,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Refrigerator (49 cu. ft.)
+E.10.28.341,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Medstation (6-drawer)
+E.10.28.401,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Imaging system (16 slice CT)
+E.10.28.403,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,CT C-Arm (digital)
+E.10.28.411,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,MRI system
+E.10.28.421,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Laser imaging
+E.10.28.431,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,X-Ray system (digital)
+E.10.28.501,0,Peak Floor Acceleration,g,0,0,lognormal,0.966,0.5,0.80 | 0.20,,,,,,,,,,,,,Shelving system (single 5 ft. unit)
+E.20.22.001,0,Peak Floor Acceleration,g,0,0,lognormal,1,0.4,,,,,,,,,,,,,,Modular office work stations.
+E.20.22.023,0,Peak Floor Acceleration,g,0,0,lognormal,0.4,0.5,,,,,,,,,,,,,,"Desktop electronics including computers, monitors, stereos, etc, smooth surface"
+E.20.22.102b,0,Peak Floor Acceleration,g,0,0,lognormal,1.5,0.6,,,,,,,,,,,,,,"Bookcase, 2 shelves, anchored laterally"
+E.20.22.112a,0,Peak Floor Velocity,mps,0,0,lognormal,1.229,0.5,,,,,,,,,,,,,,"Vertical Filing Cabinet, 2 drawer, unanchored laterally"
+excessiveRID,0,Residual Interstory Drift Ratio,rad,0,1,lognormal,0.01,0.3,,,,,,,,,,,,,,
+irreparable,0,Peak Spectral Acceleration,g,0,1,lognormal,100000000,0,,,,,,,,,,,,,,
+collapse,0,Peak Spectral Acceleration,g,0,1,lognormal,100000000,0,,,,,,,,,,,,,,

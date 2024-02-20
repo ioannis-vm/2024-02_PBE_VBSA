@@ -1,0 +1,10 @@
+,Units,Location,Direction,Theta_0,Theta_1,Family,Blocks,Inactive,Description
+B.10.31.011b,ea,1,"1,2",6,,,,,"Steel Column Base Plates, Column 150 plf < W < 300 plf"
+B.10.31.021a,ea,5,"1,2",6,,,,,"Welded column splices, Column W < 150 plf"
+B.10.31.021b,ea,3,"1,2",6,,,,,"Welded column splices, Column 150 plf < W < 300 plf"
+B.10.33.002b,ea,1,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002b,ea,2,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002b,ea,3,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002b,ea,4,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002b,ea,5,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"
+B.10.33.002b,ea,6,"1,2",4,,,,,"Special Concentric Braced Frame w WF braces, balanced design criteria, Single Diagonal Brace, 41 PLF < w < 99 PLF"

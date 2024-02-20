@@ -6,6 +6,10 @@ Source code repository accompanying the paper titled "Factor prioritization in F
 
 See [[environment_setup.org][environment_setup.org]]
 
+* Getting the results
+
+...
+
 * Reproducing the results
 
 See [[reproducing.org][reproducing.org]]
