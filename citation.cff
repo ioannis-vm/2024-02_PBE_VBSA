@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite as below."
+authors:
+- family-names: "Vouvakis Manousakis"
+  given-names: "Ioannis"
+  orcid: "https://orcid.org/0009-0009-6143-6741"
+title: "PBE VBSA Project Source Code Repository"
+version: 1.0
+date-released: 2024-02-20
+url: "https://github.com/ioannis-vm/2024-02_PBE_VBSA"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Vouvakis Manousakis"
+    given-names: "Ioannis"
+    orcid: "https://orcid.org/0009-0009-6143-6741"
+  - family-names: "Konstantinidis"
+    given-names: "Dimitrios"
+    orcid: "https://orcid.org/0000-0001-5924-8682"
+  title: "Factor prioritization in FEMA P-58 loss estimation"
+  journal: "Earthquake Spectra"
+  month: 3
+  year: 2024
