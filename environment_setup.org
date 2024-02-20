@@ -49,7 +49,7 @@ Ground motion selection is performed using ~CS_Selection~, which requires Matlab
 https://github.com/bakerjw/CS_Selection
 
 #+begin_src bash
-  cd external tools
+  cd external_tools
   git clone https://github.com/bakerjw/CS_Selection
   git checkout 194b3d4
 #+end_src
