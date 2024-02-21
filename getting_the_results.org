@@ -1,0 +1,5 @@
+Due to their large size, the results of this project are tracked using [[https://dvc.ai/][DVC]]. To get the them, after cloning the repo, follow the environment setup instructions and then issue the following command at the project's root directory:
+#+begin_src bash
+  dvc pull
+#+end_src
+The results will be placed in the ~results/~ directory.

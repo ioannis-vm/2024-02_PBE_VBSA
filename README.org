@@ -8,7 +8,7 @@ See [[environment_setup.org][environment_setup.org]]
 
 * Getting the results
 
-...
+See [[getting_the_results.org][getting_the_results.org]]
 
 * Reproducing the results
 
