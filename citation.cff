@@ -8,6 +8,9 @@ title: "PBE VBSA Project Source Code Repository"
 version: 1.0
 date-released: 2024-02-20
 url: "https://github.com/ioannis-vm/2024-02_PBE_VBSA"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10689700
 preferred-citation:
   type: article
   authors:
