@@ -23,7 +23,7 @@ else
 fi
 
 # compile java code if it has not been compiled already
-javafile_path="hazard_results/HazardCurveCalc.class"
+javafile_path="hazard_analysis/HazardCurveCalc.class"
 if [ -f "$javafile_path" ]; then
     echo "HazardCurveCalc.class already compiled"
 else

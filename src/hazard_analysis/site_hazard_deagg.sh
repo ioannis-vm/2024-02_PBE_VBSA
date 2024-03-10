@@ -23,20 +23,20 @@ else
 fi
 
 # compile java code if it has not been compiled already
-javafile_path="src/hazard_results/DisaggregationCalc.class"
+javafile_path="src/hazard_analysis/DisaggregationCalc.class"
 if [ -f "$javafile_path" ]; then
     echo "Already compiled DisaggregationCalc"
 else
     echo "Compiling DisaggregationCalc.java"
-    javac -classpath $jar_file_path src/hazard_results/DisaggregationCalc.java
+    javac -classpath $jar_file_path src/hazard_analysis/DisaggregationCalc.java
 fi
 
-# javafile_path="src/hazard_results/GMMCalc.class"
+# javafile_path="src/hazard_analysis/GMMCalc.class"
 # if [ -f "$javafile_path" ]; then
 #     echo "Already compiled GMMCalc"
 # else
 #     echo "Compiling GMMCalc.java"
-#     javac -classpath $jar_file_path src/hazard_results/GMMCalc.java
+#     javac -classpath $jar_file_path src/hazard_analysis/GMMCalc.java
 # fi
 
 for code in $arch_codes
