@@ -140,9 +140,9 @@ doc/
 *taskfile*
 *.zip
 external_tools/
-/results
 /results_other
 data/ground_motions/
 savio/
 tacc/
 /.trash/
+/results/
