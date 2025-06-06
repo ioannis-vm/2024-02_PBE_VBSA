@@ -7,8 +7,6 @@ distributed==2023.9.1
 gitpython==3.1.41
 glob2==0.7
 seaborn==0.12.2
-dvc==3.47.0
-dvc-gdrive==2.20.0
 pylint
 autopep8
 black
